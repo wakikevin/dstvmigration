@@ -28,6 +28,7 @@ $referrer = $_SERVER["HTTP_REFERER"];
                 </div>
                 <div class="copyright-bar">
                     <div class="copy-text">&copy; 2014 MultiChoice Africa Limited. All rights reserved.</div>
+                    <div class="digital-sticker"><img src="images/digital_sticker.png" alt=""></div>
                 </div>
             </div>
 

@@ -2,8 +2,11 @@
 	.right-wing{
 	 	// background:orange;
 	}
-	.banner{
-		margin-bottom: 110px;
+	.banner {
+		margin-bottom: 160px;
+		img{
+			max-width: 620px;
+		}
 	}
 }//max width 1500
 
@@ -68,6 +71,13 @@
 	}
 	.flip-clock-divider{
 		height: 80px;
+	}
+	.digital-sticker {
+		right: 15px;
+		top: 15px;
+		img{
+			width: 100px;
+		}
 	}
 }//Max width 1133
 
@@ -135,6 +145,9 @@
 		bottom: 0;
 		position: relative;
 		left: 0;
+	}
+	.digital-sticker{
+		display:none;
 	}
 }//Max width 1100
 
