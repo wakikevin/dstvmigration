@@ -14,8 +14,6 @@
 	left:35px;
 	top:15px;
 	position: fixed;
-	width: 275px;
-	height: 130px;
 	z-index:3;
 }
 
@@ -360,7 +358,7 @@
  	}
  }
 .right-wing{
-	float:right;
+	float:left;
 	width:877/1920*100%;
 	height:100%;
 	background:rgba(7,62,124,0.7);

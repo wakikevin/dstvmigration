@@ -1,6 +1,6 @@
 <?php
 
-
+error_reporting(0);
 //include config file
 include('includes/config.php');
 
