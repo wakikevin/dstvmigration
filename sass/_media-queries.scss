@@ -202,12 +202,27 @@
 			max-width: none;
 		}
 	}
-
+	.content-main.thank-you{
+		.left-wing{
+			display:none;
+		}
+		.right-wing {
+			width: 100%;
+			padding-top: 140px;
+		}
+	}
 }//max width 960
 
 @media only screen and (max-width: 768px){
 	.right-wing{
 	 	// background:pink;
+	}
+	.content-main.thank-you .right-wing {
+		padding-top: 0px;
+	}
+	.success{
+		font-family:$font-max-light;
+		font-size: 1.2em;
 	}
 	.campaign-logo {
 		position: relative;

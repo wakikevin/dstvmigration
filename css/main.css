@@ -3884,8 +3884,25 @@ a:active {
   .right-wing .wrap {
     max-width: none;
   }
+
+  .content-main.thank-you .left-wing {
+    display: none;
+  }
+  .content-main.thank-you .right-wing {
+    width: 100%;
+    padding-top: 140px;
+  }
 }
 @media only screen and (max-width: 768px) {
+  .content-main.thank-you .right-wing {
+    padding-top: 0px;
+  }
+
+  .success {
+    font-family: "maxlf-lightregular", Helvetica, sans-serif;
+    font-size: 1.2em;
+  }
+
   .campaign-logo {
     position: relative;
     left: 20px;

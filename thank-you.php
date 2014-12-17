@@ -8,20 +8,7 @@ include('includes/header.php');
 
         <div class="body-bg"></div>
         
-        <div class="content-main">
-            <div class="right-wing">
-                <div class="display-table">
-                    <div class="vertical-align">
-                        <div class="fixer">
-                            <div class="wrap">
-                                <div class="success">Thank you for your interest. <br> We will contact you shortly.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
+        <div class="content-main thank-you">
 
             <div class="left-wing">
                 <div class="display-table">
@@ -34,6 +21,19 @@ include('includes/header.php');
                 <div class="copyright-bar">
                     <div class="copy-text">&copy; 2014 MultiChoice (PTY) LTD. All rights reserved.</div>
                 </div>
+            </div>
+
+            <div class="right-wing">
+                <div class="display-table">
+                    <div class="vertical-align">
+                        <div class="fixer">
+                            <div class="wrap">
+                                <div class="success">Thank you for your interest. <br> We will contact you shortly.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
         </div>

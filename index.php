@@ -27,7 +27,7 @@ $referrer = $_SERVER["HTTP_REFERER"];
                     </div>
                 </div>
                 <div class="copyright-bar">
-                    <div class="copy-text">&copy; 2014 MultiChoice (PTY) LTD. All rights reserved.</div>
+                    <div class="copy-text">&copy; 2014 MultiChoice Africa Limited. All rights reserved.</div>
                 </div>
             </div>
 
