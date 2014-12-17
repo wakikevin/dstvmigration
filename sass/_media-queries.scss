@@ -1,0 +1,345 @@
+@media only screen and (max-width: 1600px){
+	.right-wing{
+	 	// background:orange;
+	}
+	.banner{
+		margin-bottom: 110px;
+	}
+}//max width 1500
+
+@media only screen and (max-width: 1500px){
+	.right-wing{
+	 	// background:red;
+	}
+}//max width 1500
+
+@media only screen and (max-width: 1366px){
+	.right-wing{
+	 	// background:green;
+	}
+	.dstv-logo{
+		img{
+			max-width: 150px;
+		}
+	}
+	.counter-box {
+		padding-top: 10px;
+	}
+	.campaign-logo{
+		left: 30px;
+		top: 20px;
+		img{
+			max-width: 130px;
+		}
+	}
+	.copyright-bar{
+		height: 150px;
+	}
+	.banner {
+		margin-bottom: 100px;
+		img {
+			max-width: 500px;
+		}
+	}
+	.counter-box h3{
+		margin-bottom: 30px;
+	}
+	.flip-clock-wrapper{
+		margin-bottom: 0px;
+	}
+	.disclaimer{
+		bottom: 20px;
+	}
+	.flip-clock-wrapper ul{
+		width: 45px;
+		height: 65px;
+	}
+	.flip-clock-wrapper ul li a div div.inn{
+		line-height: 66px;
+	}
+	.flip-clock-divider .flip-clock-label{
+		right: -72px;
+	}
+	.flip-clock-dot.bottom {
+		bottom: 25px;
+	}
+	.flip-clock-dot.top {
+		top: 22px;
+	}
+	.flip-clock-divider{
+		height: 80px;
+	}
+}//Max width 1133
+
+@media only screen and (max-width: 1280px){
+	.right-wing{
+	 	// background:yellow;
+	}  
+	.disclaimer{
+		bottom:20px;
+	}
+	.dstv-logo img {
+		max-width: 140px;
+	}
+	.campaign-logo img {
+		max-width: 110px;
+	}
+	.flip-clock-wrapper{
+		margin-bottom: 0px;
+	}
+	.banner img {
+		max-width: 500px;
+	}
+	.fixer{
+		padding: 0 20px;
+	}
+	.right-wing, .left-wing{
+		width:50%;
+	}
+	.flip-clock-wrapper ul{
+		width: 45px;
+	}
+	.counter-box h3{
+		margin-bottom: 30px;
+		text-align: center;
+		font-size: 1.2em;
+	}
+	.left-wing .display-table .vertical-align {
+		vertical-align: middle;
+	}
+	.banner {
+		margin-bottom: 0px;
+	}
+	.copy-text{
+		bottom: 50px;
+	}
+}//Max width 1280
+
+
+@media only screen and (max-width: 1100px){
+	.right-wing{
+	 	// background:black;
+	}
+	.right-wing{
+		width: 60%;
+	}
+	.left-wing{
+		width:40%;
+	}
+ 	.copyright-bar {
+		height: auto;
+		background-image: none;
+		padding: 20px;
+	}
+	.copy-text {
+		bottom: 0;
+		position: relative;
+		left: 0;
+	}
+}//Max width 1100
+
+
+@media only screen and (max-width: 960px){
+	.right-wing{
+	 	// background:purple;
+	}
+	.flip-clock-wrapper ul {
+		width: 35px;
+		height: 56px;
+	}
+	.flip-clock-wrapper ul li a div div.inn{
+		font-size: 35px;
+		line-height: 54px;
+	}
+	.flip-clock-dot.bottom {
+		bottom: 50px;
+	}
+	.flip-clock-dot.top {
+		top: 15px;
+	}
+	.flip-clock-divider .flip-clock-label{
+		right: -72px;
+	}
+	.order-form h4{
+		font-size: 0.9em;
+	}
+	.disclaimer {
+		bottom: 0;
+		position: relative;
+		margin-top: 30px;
+		font-size: 0.9em;
+	}
+	.right-wing{
+		padding-bottom: 30px;
+		.display-table{
+			display: block;
+			margin-top: 70px;
+		}
+	}
+	.copyright-bar{
+		display:none;
+	}
+	.footer{
+		display:block;
+	}
+	.content-main{
+		height:auto;
+	}
+	.campaign-logo{
+		position: absolute;
+	}
+	.left-wing {
+		padding-top: 180px;
+	}
+	.flip-clock-wrapper{
+		max-width: 420px;
+	}
+	.right-wing{
+		.vertical-align{
+			display: block;
+		}
+		.wrap {
+			max-width: none;
+		}
+	}
+
+}//max width 960
+
+@media only screen and (max-width: 768px){
+	.right-wing{
+	 	// background:pink;
+	}
+	.campaign-logo {
+		position: relative;
+		left: 20px;
+		top: 20px;
+		float: left;
+		width: 80px;
+		img{
+			max-width: 80px;
+		}
+	}
+	.right-wing{
+		width:100%;
+	}
+	.left-wing{
+		display:none;
+	}
+	.dstv-logo {
+		position: relative;
+		right: 0;
+		top: 20px;
+		float: right;
+	}
+	.right-wing .display-table {
+		margin-top: 0;
+	}
+	.right-wing{
+		.display-table{
+			display: block;
+			.vertical-align{
+				display: block;
+			}
+		}
+	}
+}//max width 768
+
+
+@media only screen and (max-width: 500px){
+ 	.right-wing{
+	 	// background:blue;
+	}
+	.flip-clock-wrapper {
+		display: none;
+	}
+	.counter-box h3{
+		margin-bottom: 20px;
+	}
+}//max 500px
+
+@media only screen and (max-width: 330px){
+	.right-wing{
+	 	// background:black;
+	}
+	.order-form input[type="button"], .order-form input[type="submit"]{
+		font-size: 1.2em;
+		padding: 15px 10px;
+	}
+	.selectdiv div{
+		font-size: 0.8em;
+		line-height: 1.4em;
+	}
+	.order-form input[type="text"]{
+		font-size: 0.8em;
+	}
+
+}//max 330px
+
+
+// Print Styles
+ 
+@media print {
+
+	* {
+		background: transparent !important; 
+		color: black !important; 
+		text-shadow: none !important; 
+		filter:none !important; 
+		-ms-filter: none !important; 
+	} 
+	
+	a, 
+	a:visited { 
+		text-decoration: underline; 
+	}
+	
+	a[href]:after { 
+		content: " (" attr(href) ")"; 
+	}
+	
+	abbr[title]:after { 
+		content: " (" attr(title) ")"; 
+	}
+	
+	.ir a:after, 
+	a[href^="javascript:"]:after, 
+	a[href^="#"]:after { 
+		content: ""; 
+	} 
+	
+	pre, 
+	blockquote { 
+		border: 1px solid #999; 
+		page-break-inside: avoid; 
+	}
+	
+	thead { 
+		display: table-header-group; 
+	}
+	
+	tr, 
+	img { 
+		page-break-inside: avoid; 
+	}
+	
+	img { 
+		max-width: 100% !important; 
+	}
+	
+	@page { 
+		margin: 0.5cm; 
+	}
+	
+	p, 
+	h2, 
+	h3 { 
+		orphans: 3; 
+		widows: 3; 
+	}
+	
+	h2, 
+	h3 { 
+		page-break-after: avoid; 
+	}
+	
+}
