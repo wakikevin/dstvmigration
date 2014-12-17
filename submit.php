@@ -33,6 +33,7 @@ function saveData(){
 	$utm_medium = $_POST['utm_medium'];
 	$utm_campaign = $_POST['utm_campaign'];
 	$referrer = $_POST['referrer'];
+	$source = $_POST['source'];
 	$token =$_POST['token'];
 
 	//check if token is valid
@@ -66,6 +67,8 @@ function saveData(){
 								$newLead->utm_medium = $utm_medium;
 								$newLead->utm_campaign = $utm_campaign;
 								$newLead->referrer = $referrer;
+								$newLead->source_id = $source;
+								
 								$newLead->save();
 								$id = $newLead->id();
 								

@@ -1,31 +1,17 @@
 <?php
 
-//define server parameters
 
-if($_SERVER['HTTP_HOST'] == '127.0.0.1' || $_SERVER['HTTP_HOST'] == 'localhost'){
 	
 	
-	define("BASE_URL", "http://localhost/dstvleads");
+	define("BASE_URL", "http://10.10.5.148/dstv-switch");
 	define('DATABASE_SERVER','localhost');
 	define('DATABASE_USER','root');
-	define('DATABASE_PASSWORD','admin');
+	define('DATABASE_PASSWORD','');
 	define('DATABASE_NAME','dstv_leads');
 	define('DBPREFIX','dstv_');
 	
 	define('CONNECTION_STRING', 'mysql:host=localhost;dbname=dstv_leads');
-}else{
-	
-	define("BASE_URL", "http://squadlab.com/dstv/leads");
-	define('DATABASE_SERVER','dstvexplora.db.9126389.hostedresource.com');
-	define('DATABASE_USER','dstvexplora');
-	define('DATABASE_PASSWORD','PfqBM91q4j#');
-	define('DATABASE_NAME','dstvexplora');
-	define('DBPREFIX','dstv_');
-	
-	define('CONNECTION_STRING', 'mysql:host=dstvexplora.db.9126389.hostedresource.com;dbname=dstvexplora');
-	
-	
-}
+
 
 //define email parameters
 if($_SERVER['HTTP_HOST'] == '127.0.0.1' || $_SERVER['HTTP_HOST'] == 'localhost'){

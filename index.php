@@ -10,10 +10,24 @@ $referrer = isset($_SERVER["HTTP_REFERER"]) ? $_SERVER["HTTP_REFERER"] : '' ;
 $utm_source = isset($_REQUEST["utm_source"]) ? $_REQUEST["utm_source"] : '' ;
 $utm_medium = isset($_REQUEST["utm_medium"]) ? $_REQUEST["utm_medium"] : '' ;
 $utm_campaign = isset($_REQUEST["utm_campaign"]) ? $_REQUEST["utm_campaign"] : '' ;
+$source = isset($_REQUEST["s"]) ? $_REQUEST["s"] : 2 ;
 
 
 ?>
-        <div class="campaign-logo"> <img src="images/campaign-logo.png" alt=""> </div>
+        <div class="campaign-logo"> 
+        	<?php
+			if($source == 1){
+				?>
+                <img src="images/scangroup_logo.png" alt="">
+			<?php
+			}
+			else{
+				?>
+        <img src="images/campaign-logo.png" alt=""> 
+        	<?php
+			}
+			?>
+        </div>
 
         <div class="dstv-logo"><img src="images/dstv-logo.png" alt=""></div>
 
@@ -84,6 +98,7 @@ $utm_campaign = isset($_REQUEST["utm_campaign"]) ? $_REQUEST["utm_campaign"] : '
                                             <div class="out">Area</div>
                                         </div>
                                         <input type="hidden" name="token" id="token" value="<?php echo $token; ?>" class="textbox" />
+                                        <input type="hidden" name="source" id="source" value="<?php echo $source; ?>" class="textbox" />
                                         <input type="hidden" name="referrer" id="referrer" value="<?php echo $referrer; ?>" class="textbox" />
                                         <input type="hidden" name="utm_source" id="utm_source" value="<?php echo $utm_source; ?>" class="textbox" />
                                         <input type="hidden" name="utm_medium" id="utm_medium" value="<?php echo $utm_medium; ?>" class="textbox" />
