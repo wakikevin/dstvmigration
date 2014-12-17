@@ -3150,6 +3150,12 @@ a:active {
   font-size: 1.4em;
 }
 
+.digital-sticker {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
 /* Get the bourbon mixin from http://bourbon.io */
 /* Reset */
 .flip-clock-wrapper * {
@@ -3672,7 +3678,10 @@ a:active {
 }
 @media only screen and (max-width: 1600px) {
   .banner {
-    margin-bottom: 110px;
+    margin-bottom: 160px;
+  }
+  .banner img {
+    max-width: 620px;
   }
 }
 @media only screen and (max-width: 1366px) {
@@ -3738,6 +3747,14 @@ a:active {
 
   .flip-clock-divider {
     height: 80px;
+  }
+
+  .digital-sticker {
+    right: 15px;
+    top: 15px;
+  }
+  .digital-sticker img {
+    width: 100px;
   }
 }
 @media only screen and (max-width: 1280px) {
@@ -3810,6 +3827,10 @@ a:active {
     bottom: 0;
     position: relative;
     left: 0;
+  }
+
+  .digital-sticker {
+    display: none;
   }
 }
 @media only screen and (max-width: 960px) {

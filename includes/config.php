@@ -3,7 +3,7 @@
 
 	
 	
-	define("BASE_URL", "http://192.168.2.78/dstv-switch");
+	define("BASE_URL", "http://10.10.5.148/dstv-switch");
 	define('DATABASE_SERVER','localhost');
 	define('DATABASE_USER','root');
 	define('DATABASE_PASSWORD','');
