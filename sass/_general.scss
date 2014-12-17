@@ -124,7 +124,10 @@ $black:#1d181c;
 $gutter:50px;
 $text-color:#4a4c4e;
 
-
+input {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
 
 
 

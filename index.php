@@ -17,13 +17,27 @@ $referrer = $_SERVER["HTTP_REFERER"];
         <div class="body-bg"></div>
         
         <div class="content-main">
+            
+            <div class="left-wing">
+                <div class="display-table">
+                    <div class="vertical-align">
+                        <div class="banner">
+                            <img src="images/dstv-hd-decoder.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-bar">
+                    <div class="copy-text">&copy; 2014 MultiChoice Africa Limited. All rights reserved.</div>
+                </div>
+            </div>
+
             <div class="right-wing">
                 <div class="display-table">
                     <div class="vertical-align">
                         <div class="fixer">
                             <div class="wrap">
                                     <div class="counter-box">
-                                    <h3>The countdown to digital is on:</h3>
+                                    <h3>The countdown is on:</h3>
                                     <div class="clock"></div>
                                     <div class="message"></div>
                                     <div class="order-form"> 
@@ -37,31 +51,31 @@ $referrer = $_SERVER["HTTP_REFERER"];
                                             <select class="selectboxdiv" name="location" id="location">
                                               <option value="">Area</option>
                                               <?php 
-											  //get active locations
-											  $where = array("status"=>1); 
-											  $regions = getData('regions',$where);
-											  if(count($regions) > 0){
-												  foreach($regions as $region):
-											  ?>
-                                              		<optgroup label="<?php echo $region->name; ?>">
+                                              //get active locations
+                                              $where = array("status"=>1); 
+                                              $regions = getData('regions',$where);
+                                              if(count($regions) > 0){
+                                                  foreach($regions as $region):
+                                              ?>
+                                                    <optgroup label="<?php echo $region->name; ?>">
                                                     
                                                     <?php
-													$wherer = array("region_id"=>$region->id,"status" => 1); 
-													$locations = getData('locations',$wherer);
-													  if(count($locations) > 0){
-														  foreach($locations as $location):
-													?>
+                                                    $wherer = array("region_id"=>$region->id,"status" => 1); 
+                                                    $locations = getData('locations',$wherer);
+                                                      if(count($locations) > 0){
+                                                          foreach($locations as $location):
+                                                    ?>
                                                     <option value="<?php echo $location->id; ?>"><?php echo $location->name; ?></option>
                                                     <?php
-														endforeach;
-													  }
-													  ?>
+                                                        endforeach;
+                                                      }
+                                                      ?>
                                                      </optgroup>
                                                  
                                              <?php
-												endforeach;
-											  }
-											  ?>
+                                                endforeach;
+                                              }
+                                              ?>
                                             </select>
                                             <div class="out">Area</div>
                                         </div>
@@ -80,24 +94,10 @@ $referrer = $_SERVER["HTTP_REFERER"];
 
             </div>
 
-
-            <div class="left-wing">
-                <div class="display-table">
-                    <div class="vertical-align">
-                        <div class="banner">
-                            <img src="images/dstv-hd-decoder.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="copyright-bar">
-                    <div class="copy-text">&copy; 2014 MultiChoice (PTY) LTD. All rights reserved.</div>
-                </div>
-            </div>
-
         </div>
 
         <div class="footer">
-            &copy; 2014 MultiChoice (PTY) LTD. All rights reserved.
+            &copy; MultiChoice Africa Limited. All rights reserved.
         </div>
 
       

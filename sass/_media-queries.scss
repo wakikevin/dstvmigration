@@ -29,7 +29,7 @@
 		left: 30px;
 		top: 20px;
 		img{
-			max-width: 130px;
+			max-width: 100px;
 		}
 	}
 	.copyright-bar{
@@ -143,6 +143,9 @@
 	.right-wing{
 	 	// background:purple;
 	}
+	.flip-clock-dot.bottom {
+		bottom: 30px;
+	}
 	.flip-clock-wrapper ul {
 		width: 35px;
 		height: 56px;
@@ -150,9 +153,6 @@
 	.flip-clock-wrapper ul li a div div.inn{
 		font-size: 35px;
 		line-height: 54px;
-	}
-	.flip-clock-dot.bottom {
-		bottom: 50px;
 	}
 	.flip-clock-dot.top {
 		top: 15px;
@@ -202,12 +202,27 @@
 			max-width: none;
 		}
 	}
-
+	.content-main.thank-you{
+		.left-wing{
+			display:none;
+		}
+		.right-wing {
+			width: 100%;
+			padding-top: 140px;
+		}
+	}
 }//max width 960
 
 @media only screen and (max-width: 768px){
 	.right-wing{
 	 	// background:pink;
+	}
+	.content-main.thank-you .right-wing {
+		padding-top: 0px;
+	}
+	.success{
+		font-family:$font-max-light;
+		font-size: 1.2em;
 	}
 	.campaign-logo {
 		position: relative;
@@ -223,7 +238,9 @@
 		width:100%;
 	}
 	.left-wing{
-		display:none;
+		width: 100%;
+		padding-top: 30px;
+		margin-bottom: 20px;
 	}
 	.dstv-logo {
 		position: relative;
@@ -235,12 +252,16 @@
 		margin-top: 0;
 	}
 	.right-wing{
+		background:none;
 		.display-table{
 			display: block;
 			.vertical-align{
 				display: block;
 			}
 		}
+	}
+	.content-main {
+		background: rgba(7, 62, 124, 0.7);
 	}
 }//max width 768
 
@@ -249,17 +270,75 @@
  	.right-wing{
 	 	// background:blue;
 	}
-	.flip-clock-wrapper {
-		display: none;
-	}
 	.counter-box h3{
-		margin-bottom: 20px;
+		margin-bottom: 40px;
+	}
+	.banner img {
+		max-width: 330px;
 	}
 }//max 500px
+
+@media only screen and (max-width:460px){
+	.flip-clock-wrapper {
+		// display: none;
+	}
+	.flip-clock-divider .flip-clock-label {
+		right: -44px;
+	}
+	.flip-clock-wrapper ul li a div div.inn {
+		font-size: 25px;
+		line-height: 36px;
+	}
+	.flip-clock-wrapper ul {
+		width: 20px;
+		height: 35px;
+		border-radius: 0;
+		margin: 3px;
+	}
+	.flip-clock-wrapper {
+		max-width: 268px;
+	}
+	.flip-clock-dot{
+		width: 5px;
+		height: 5px;
+	}
+	.flip-clock-dot.top {
+		top: 12px;
+	}
+	.flip-clock-dot.bottom {
+		bottom: 20px;
+	}
+	.flip-clock-wrapper ul li a div.down{
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+	.flip-clock-wrapper ul li a div div.inn{
+		border-radius: 0;
+	}
+	.flip-clock-divider .flip-clock-label{
+		font-size: 13px;
+	}
+	.flip-clock-divider.minutes .flip-clock-label {
+		right: -50px;
+	}
+	.flip-clock-divider.seconds .flip-clock-label {
+		right: -53px;
+	}
+	.flip-clock-divider {
+		height: 50px;
+	}
+	.flip-clock-wrapper {
+		margin-bottom: 10px;
+	}
+}
 
 @media only screen and (max-width: 330px){
 	.right-wing{
 	 	// background:black;
+	}
+	.counter-box h3 {
+		margin-bottom: 30px;
+		font-size: 1em;
 	}
 	.order-form input[type="button"], .order-form input[type="submit"]{
 		font-size: 1.2em;
@@ -273,6 +352,15 @@
 		font-size: 0.8em;
 	}
 
+	.campaign-logo img {
+		max-width: 55px;
+	}
+	.disclaimer{
+		font-size:0.8em;
+	}
+	.flip-clock-wrapper .flip {
+		box-shadow: none;
+	}
 }//max 330px
 
 
