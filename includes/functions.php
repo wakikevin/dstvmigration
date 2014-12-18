@@ -13,6 +13,9 @@ include('includes/phpmailer/class.phpmailer.php');
 //include va;lidation class
 include('includes/Validation.class.php');
 
+//include mailjet
+include("includes/php-mailjet-v3-simple.class.php");
+
 //function to convert images to data uris
 function convertToUri($image){
 
@@ -46,7 +49,7 @@ function initializeDB(){
 
 }
 
-function sendEmail($sendToAddress, $sendToName, $message){
+function sendEmail2($sendToAddress, $sendToName, $message){
 		try{
 			$smtp_account = SMTP_USER_ACCOUNT;
 			$mailSender = new PHPMailer();
@@ -141,6 +144,25 @@ function sendEmail($sendToAddress, $sendToName, $message){
 			return false;
 		}
 	}
+	function sendEmail($sendToAddress, $sendToName, $message) {
+    $mj = new Mailjet();
+    $params = array(
+        "method" => "POST",
+        "from" => "DSTV LEADS <info@getdstv.co.ke>",
+        "to" => $sendToAddress,
+        "subject" => "DSTV Leads",
+        "html" => $message
+    );
+
+    $result = $mj->sendEmail($params);
+
+    if ($mj->_response_code == 200):
+      // echo "success - email sent";
+    else:
+      // echo "error - ".$mj->_response_code;
+	endif;
+    return $result;
+}
 
 function generateToken(){
 	

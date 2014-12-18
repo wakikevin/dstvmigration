@@ -81,10 +81,10 @@ function saveData(){
 									//$message = str_replace("{town}", $location, $message);
 									$message = str_replace(chr(194),"", $message);
 									//send email to admin
-									sendEmail($email,$name,$message);
+									sendEmail(EMAIL_FROM_ADDRESS,EMAIL_FROM_NAME,$message);
 									
 									//send email to agent
-									sendAgentEmail($agent_email,$agent_name,$message);
+									sendEmail($agent_email,$agent_name,$message);
 									
 									//send sms to agent
 									$sms = 'Hi '.$agent_name.', New Lead: '.$name.' - '.$mobile. '. Kindly act on this';

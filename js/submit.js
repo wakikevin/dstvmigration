@@ -35,8 +35,9 @@ $(document).ready(function(e) {
 									document.getElementById("frmDetails").reset();
 									redirect('thank-you.php');
 									
-								}else{
-									alert(data.desc);
+								}else if(data.code == '001'){
+									//alert(data.desc);
+									email.value = data.desc;
 									
 								}
 							   
@@ -54,14 +55,7 @@ $(document).ready(function(e) {
 					mobile.value = "Enter Correct Mobile Number";	
 				}
 			}else{
-				$('#notify').addClass('notification error');
-				$('#notify').empty().html('Please Enter Correct Email Address');
-				$("#notify").stop().slideDown("slow", function(){
-					$('html,body').animate({
-							scrollTop: $("#notify").offset().top - 100},
-						'slow'
-					);
-				});
+				
 				email.value = 'Enter Correct Email Address';
 					
 			}
