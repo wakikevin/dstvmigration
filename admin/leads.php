@@ -76,16 +76,9 @@ include('includes/header.php');
 										<button class="btn dropdown-toggle" data-toggle="dropdown">Tools <i class="fa fa-angle-down"></i>
 										</button>
 										<ul class="dropdown-menu pull-right">
+											
 											<li>
-												<a href="#">
-												Print </a>
-											</li>
-											<li>
-												<a href="#">
-												Save as PDF </a>
-											</li>
-											<li>
-												<a href="#">
+												<a href="export.php">
 												Export to Excel </a>
 											</li>
 										</ul>

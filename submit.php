@@ -104,7 +104,7 @@ function saveData(){
 							}catch(Exception $e){
 								//print_r($e);
 								$error['code'] = '001';
-								$error['desc'] = 'Sorry Try Again. Your details could not be saved at this time. Please try again later';
+								$error['desc'] = 'The Email Address has already been used. Please try with another email';
 							}
 							
 							

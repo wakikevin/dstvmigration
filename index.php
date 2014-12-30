@@ -14,6 +14,13 @@ $source = isset($_REQUEST["s"]) ? $_REQUEST["s"] : 2 ;
 
 
 ?>
+<style type="text/css">
+	.notification{margin-bottom:20px;padding:8px 10px;font-size:0.9em;-webkit-border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;-o-border-radius:3px;border-radius:3px}.notification.error{background:#FFF7F9;border:#EC818E solid 1px;color:#F35252}.notification.loading{background:#E4F3D4;border:#86AA51 solid 1px;color:#62910F}
+	.copy-text{
+		width:250px;
+		text-align:center;
+		}
+</style>
         <div class="campaign-logo"> 
         	<?php
 			if($source == 1){
@@ -60,6 +67,7 @@ $source = isset($_REQUEST["s"]) ? $_REQUEST["s"] : 2 ;
                                     <div class="message"></div>
                                     <div class="order-form"> 
                                     <h4>To get this special online offer fill in the form below:</h4>
+                                    <div id="notify" class="notification error" style="display:none;">Error goes here</div>
                                    <form action="#" method="post" id="frmDetails">
                                         
                                         <input type="text" placeholder="Name" id="name" name="name">
@@ -67,7 +75,7 @@ $source = isset($_REQUEST["s"]) ? $_REQUEST["s"] : 2 ;
                                         <input type="text" placeholder="Email" id="email" name="email">
                                        <div class="selectdiv">  
                                             <select class="selectboxdiv" name="location" id="location">
-                                              <option value="">Area</option>
+                                              <option value="">Area closest to you</option>
                                               <?php 
                                               //get active locations
                                               $where = array("status"=>1); 

@@ -9,6 +9,9 @@ include('includes/config.php');
 //include database class
 include('includes/ORM.class.php');
 
+//include excelwriter
+include('includes/excelwriter.inc.php');
+
 //include mailer class
 include('includes/phpmailer/class.phpmailer.php');
 

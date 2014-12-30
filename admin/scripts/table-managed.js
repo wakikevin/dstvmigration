@@ -308,6 +308,7 @@ var TableManaged = function () {
             initTable1();
             initTable2();
             initTable3();
+			initTable4();
         }
 
     };

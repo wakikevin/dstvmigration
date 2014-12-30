@@ -36,8 +36,16 @@ $(document).ready(function(e) {
 									redirect('thank-you.php');
 									
 								}else if(data.code == '001'){
-									//alert(data.desc);
-									email.value = data.desc;
+									$('#notify').addClass('notification error');
+									$('#notify').empty().html(data.desc);
+									$("#notify").stop().slideDown("slow", function(){
+										$('html,body').animate({
+												scrollTop: $("#notify").offset() - 0},
+											'slow'
+										);
+									});
+									
+									$('.disclaimer').css('bottom','10px');
 									
 								}
 							   

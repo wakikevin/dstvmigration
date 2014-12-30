@@ -1,0 +1,166 @@
+                <html xmlns:o="urn:schemas-microsoft-com:office:office"
+                xmlns:x="urn:schemas-microsoft-com:office:excel"
+                xmlns="http://www.w3.org/TR/REC-html40">
+
+                <head>
+                <meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+                <meta name=ProgId content=Excel.Sheet>
+                <!--[if gte mso 9]><xml>
+                 <o:DocumentProperties>
+                  <o:LastAuthor>Sriram</o:LastAuthor>
+                  <o:LastSaved>2005-01-02T07:46:23Z</o:LastSaved>
+                  <o:Version>10.2625</o:Version>
+                 </o:DocumentProperties>
+                 <o:OfficeDocumentSettings>
+                  <o:DownloadComponents/>
+                 </o:OfficeDocumentSettings>
+                </xml><![endif]-->
+                <style>
+                <!--table
+                    {mso-displayed-decimal-separator:"\.";
+                    mso-displayed-thousand-separator:"\,";}
+                @page
+                    {margin:1.0in .75in 1.0in .75in;
+                    mso-header-margin:.5in;
+                    mso-footer-margin:.5in;}
+                tr
+                    {mso-height-source:auto;}
+                col
+                    {mso-width-source:auto;}
+                br
+                    {mso-data-placement:same-cell;}
+                .style0
+                    {mso-number-format:General;
+                    text-align:general;
+                    vertical-align:bottom;
+                    white-space:nowrap;
+                    mso-rotate:0;
+                    mso-background-source:auto;
+                    mso-pattern:auto;
+                    color:windowtext;
+                    font-size:10.0pt;
+                    font-weight:400;
+                    font-style:normal;
+                    text-decoration:none;
+                    font-family:Arial;
+                    mso-generic-font-family:auto;
+                    mso-font-charset:0;
+                    border:none;
+                    mso-protection:locked visible;
+                    mso-style-name:Normal;
+                    mso-style-id:0;}
+                td
+                    {mso-style-parent:style0;
+                    padding-top:1px;
+                    padding-right:1px;
+                    padding-left:1px;
+                    mso-ignore:padding;
+                    color:windowtext;
+                    font-size:10.0pt;
+                    font-weight:400;
+                    font-style:normal;
+                    text-decoration:none;
+                    font-family:Arial;
+                    mso-generic-font-family:auto;
+                    mso-font-charset:0;
+                    mso-number-format:General;
+                    text-align:general;
+                    vertical-align:bottom;
+                    border:none;
+                    mso-background-source:auto;
+                    mso-pattern:auto;
+                    mso-protection:locked visible;
+                    white-space:nowrap;
+                    mso-rotate:0;}
+                .xl24
+                    {mso-style-parent:style0;
+                    white-space:normal;}
+                -->
+                </style>
+                <!--[if gte mso 9]><xml>
+                 <x:ExcelWorkbook>
+                  <x:ExcelWorksheets>
+                   <x:ExcelWorksheet>
+                    <x:Name>srirmam</x:Name>
+                    <x:WorksheetOptions>
+                     <x:Selected/>
+                     <x:ProtectContents>False</x:ProtectContents>
+                     <x:ProtectObjects>False</x:ProtectObjects>
+                     <x:ProtectScenarios>False</x:ProtectScenarios>
+                    </x:WorksheetOptions>
+                   </x:ExcelWorksheet>
+                  </x:ExcelWorksheets>
+                  <x:WindowHeight>10005</x:WindowHeight>
+                  <x:WindowWidth>10005</x:WindowWidth>
+                  <x:WindowTopX>120</x:WindowTopX>
+                  <x:WindowTopY>135</x:WindowTopY>
+                  <x:ProtectStructure>False</x:ProtectStructure>
+                  <x:ProtectWindows>False</x:ProtectWindows>
+                 </x:ExcelWorkbook>
+                </xml><![endif]-->
+                </head>
+
+                <body link=blue vlink=purple>
+                <table x:str border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse;table-layout:fixed;'><tr><td class=xl24 width=164 ><table><tr><th><strong>
+									 Name</strong>
+								</th>
+                               
+								<th>
+									<strong> Email</strong>
+								</th>
+								<th>
+									<strong> Phone</strong>
+								</th>
+								<th>
+									 <strong>Location</strong>
+								</th>
+                                <th>
+									 <strong>Assigned Agent</strong>
+								</th>
+                                <th>
+									<strong> Lead Source</strong>
+								</th>
+                                <th>
+									<strong> Submitted On</strong>
+								</th>
+                                <th>
+									<strong> Status</strong>
+								</th>
+                                <th>
+									<strong> Referrer</strong>
+								</th></tr><tr> <td>Tev</td><td>tev@mail.com </td><td>09876554333</td><td>Test Location</td><td>Kevin Waki</td><td>Scangroup</td><td>2014-12-17 21:19:46</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>Vimal Kaul</td><td>vimal1.kaul@scangroup.biz </td><td>0710289801</td><td>WAIYAKI WAY</td><td>JAMES ADALA</td><td>Scangroup</td><td>2014-12-18 09:41:47</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>Vimal Kaul</td><td>vimal2.kaul@scangroup.biz </td><td>099090909</td><td>WAIYAKI WAY</td><td>JAMES ADALA</td><td>Scangroup</td><td>2014-12-18 09:44:37</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>Vimal</td><td>vi1mal.kaul@scangroup.biz </td><td>071898989</td><td>OUTER RING/JOGOO ROAD</td><td>MAURICE ANDITI</td><td>Scangroup</td><td>2014-12-18 09:47:03</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>Kevin</td><td>kevinwaki@gmail.com </td><td>0721832517</td><td>WAIYAKI WAY</td><td>BEATRICE WANJIRU</td><td>General</td><td>2014-12-17 11:46:14</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>Kevin </td><td>Test@mail.com </td><td>556767889899</td><td>WAIYAKI WAY</td><td>BEATRICE WANJIRU</td><td>General</td><td>2014-12-17 12:55:18</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td>http://greensoftkenya.com/</td></tr><tr> <td>mary</td><td>marymogoi@gmail.com </td><td>0744335577</td><td>Test Location</td><td>Kevin Waki</td><td>General</td><td>2014-12-17 17:37:31</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>Manish</td><td>manish@gmail.com </td><td>0718900333</td><td>WAIYAKI WAY</td><td>JAMES ADALA</td><td>General</td><td>2014-12-17 17:42:59</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>Mbugua Macharia</td><td>mgmcharia@gmail.com </td><td>0720640333</td><td>WAIYAKI WAY</td><td>JAMES ADALA</td><td>General</td><td>2014-12-17 19:20:38</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>Kevin Waki</td><td>kgsgsd@mail.com </td><td>87836676436743</td><td>Test Location</td><td>Kevin Waki</td><td>General</td><td>2014-12-17 19:21:15</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>Kevin Waki</td><td>kgsgsd67575@mail.com </td><td>87836676436743</td><td>Test Location</td><td>Kevin Waki</td><td>General</td><td>2014-12-17 19:23:51</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>Kevin Waki</td><td>kgsgsd6757555@mail.com </td><td>87836676436743</td><td>Test Location</td><td>Kevin Waki</td><td>General</td><td>2014-12-17 19:26:58</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>Mbugua Macharia</td><td>ginine5@gmail.com </td><td>0720640333</td><td>Test Location</td><td>Kevin Waki</td><td>General</td><td>2014-12-17 19:31:31</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>John</td><td>t@me.com </td><td>08977636635</td><td>Test Location</td><td>Kevin Waki</td><td>General</td><td>2014-12-17 19:32:58</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>Kinuthia Mbugua</td><td>kinuthia4@gmail.com </td><td>76745455768</td><td>Test Location</td><td>Kevin Waki</td><td>General</td><td>2014-12-17 19:34:10</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>nani</td><td>gjjghhjk@gmail.com </td><td>4567890987654</td><td>Test Location</td><td>Kevin Waki</td><td>General</td><td>2014-12-17 19:35:57</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>Vimal Kaul</td><td>vimal.kaul@scangroup.biz </td><td>0710289801</td><td>WAIYAKI WAY</td><td>JAMES ADALA</td><td>General</td><td>2014-12-17 22:44:36</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>Vimal Kaul</td><td>kaulvimal@gmail.com </td><td>0710289801</td><td>Test Location</td><td>Kevin Waki</td><td>General</td><td>2014-12-18 08:00:49</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>Francis Kiarie Njoroge</td><td>kiarief@gmail.com </td><td>+254720208340</td><td>WAIYAKI WAY</td><td>JAMES ADALA</td><td>General</td><td>2014-12-18 08:15:09</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>Alice</td><td>alice@kenya.com </td><td>020399925</td><td>MOMBASA ROAD</td><td>CAROLINE MUIA</td><td>General</td><td>2014-12-18 08:42:03</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td>http://www.ghafla.co.ke/</td></tr><tr> <td>Lewis</td><td>lewis@safaricom.com </td><td>0732535191</td><td>WAIYAKI WAY</td><td>JAMES ADALA</td><td>General</td><td>2014-12-18 09:12:02</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td>http://www.ghafla.co.ke/</td></tr><tr> <td>Kinuthia Mbugua</td><td>waki.kev@gmail.com </td><td>6387853058008354</td><td>Test Location</td><td>Kevin Waki</td><td>General</td><td>2014-12-18 09:41:06</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>Johnstone kulundu Mukubi</td><td>mukubijohnstone@gmail.com </td><td>0722306562</td><td>LANGATA ROAD</td><td>SUSAN OSANO</td><td>General</td><td>2014-12-18 11:00:15</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td>http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-8496420355696304&output=html&h=600&slotname=1020097359&adk=2758560687&w=300&lmt=1418889303&host=pub-1556223355139109&flash=11.7.700&url=http%3A%2F%2Fwww.kenyan-post.com%2F&dt=1418889318874&bpp=3&bdt=2025&shv=r20141209&cbv=r20141212&saldr=sa&prev_fmts=970x90%2C970x90&correlator=6894815037833&frm=20&ga_vid=958656449.1418889319&ga_sid=1418889319&ga_hid=187882183&ga_fc=0&u_tz=180&u_his=50&u_java=0&u_h=768&u_w=1366&u_ah=728&u_aw=1366&u_cd=24&u_nplug=3&u_nmime=16&dff=georgia&dfs=12&adx=690&ady=294&biw=1349&bih=613&eid=317150304&oid=3&ref=http%3A%2F%2Fwww.kenyan-post.com%2F2014%2F12%2Flook-at-what-uhuru-ruto-are-doing-to.html&rx=0&eae=0&fc=8&brdim=%2C%2C-8%2C-8%2C1366%2C0%2C1382%2C744%2C1366%2C613&vis=1&abl=CS&ppjl=t&fu=0&bc=1&ifi=3&xpc=GQfIQ9VmRP&p=http%3A//www.kenyan-post.com&dtd=214</td></tr><tr> <td>Elizabeth Mwangi</td><td>zilmwangy@yahoo.com </td><td>0724750202</td><td>THIKA ROAD</td><td>BEATRICE WANJIRU</td><td>General</td><td>2014-12-18 11:08:11</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>yusra abdul</td><td>yusraabdul@gmai.com </td><td>0704367272</td><td>Test Location</td><td>Kevin Waki</td><td>General</td><td>2014-12-18 11:14:22</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>festus</td><td>mumofestusk@gmail.com </td><td>0720011937</td><td>OUTER RING/JOGOO ROAD</td><td>MAURICE ANDITI</td><td>General</td><td>2014-12-18 11:18:26</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td>http://www.ghafla.co.ke/news/music/item/27829-dj-mo-flaunts-his-brand-new-baby-toy-photo</td></tr><tr> <td>sharon</td><td>sminjire@yahoo.com </td><td>0721542915</td><td>THIKA ROAD</td><td>BEATRICE WANJIRU</td><td>General</td><td>2014-12-18 11:19:05</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>Micah Japheth</td><td>micahjapheth@gmail.com </td><td>0719-268841</td><td>THIKA ROAD</td><td>BEATRICE WANJIRU</td><td>General</td><td>2014-12-18 11:31:06</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>Stephen mutua munguti</td><td>stephenmunguti@yahoo.com </td><td>0721834164</td><td>MOMBASA ROAD</td><td>CAROLINE MUIA</td><td>General</td><td>2014-12-18 11:38:00</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td>http://tpc.googlesyndication.com/safeframe/1-0-1/html/container.html</td></tr><tr> <td>cosmas chahenza</td><td>chahenza@soitaattorneys.com </td><td>0722-218500</td><td>MOMBASA ROAD</td><td>CAROLINE MUIA</td><td>General</td><td>2014-12-18 11:39:36</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>lalish</td><td>crankboyy2012@hotmail.com </td><td>0727173554</td><td>OUTER RING/JOGOO ROAD</td><td>MAURICE ANDITI</td><td>General</td><td>2014-12-18 11:42:48</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>rachel nyamwathi</td><td>nyamwathi.racquel@gmail.com </td><td>+254723412283</td><td>MOMBASA ROAD</td><td>CAROLINE MUIA</td><td>General</td><td>2014-12-18 11:50:58</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td>http://tpc.googlesyndication.com/safeframe/1-0-1/html/container.html?n=1</td></tr><tr> <td>william maitha</td><td>pasawi.insurance@gmail.com </td><td>0721705489</td><td>OUTER RING/JOGOO ROAD</td><td>MAURICE ANDITI</td><td>General</td><td>2014-12-18 12:22:14</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td>http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-4519818035499623&output=html&h=250&slotname=4040850011&adk=1687240374&w=300&lmt=1418894214&region=test&flash=0&url=http%3A%2F%2Fwww.standardmedia.co.ke%2Fm%2F%3FarticleID%3D2000145145%26story_title%3DDivided%20Kenyans%20disagree%20over%20strategy%20to%20end%20%22terror%22%20attacks&dt=1418894213875&bpp=174&bdt=2682&shv=r20141209&cbv=r20141212&saldr=sa&correlator=5626261129404&frm=20&ga_vid=1279158382.1411151308&ga_sid=1418894215&ga_hid=1810290377&ga_fc=1&u_tz=180&u_his=1&u_java=1&u_h=800&u_w=480&u_ah=800&u_aw=480&u_cd=24&u_nplug=0&u_nmime=0&dff=segoe%20ui&dfs=14&adx=16&ady=1606&biw=320&bih=486&eid=317150304&oid=3&rx=0&eae=0&fc=11&docm=10&brdim=0%2C0%2C1000%2C1000%2C480%2C%2C320%2C485%2C320%2C485&vis=1&abl=CS&ppjl=u&srr=1&fu=0&bc=1&ifi=1&xpc=DC0RkdGxsE&p=http%3A//www.standardmedia.co.ke&dtd=1114</td></tr><tr> <td>Kevin</td><td>kevinwaki@gmai45l.com </td><td>0721832517</td><td>OUTER RING/JOGOO ROAD</td><td>MAURICE ANDITI</td><td>General</td><td>2014-12-18 19:24:52</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr><tr> <td>Kevin</td><td>kevinwaki@gmai456l.com </td><td>98437863</td><td>THIKA ROAD</td><td>BEATRICE WANJIRU</td><td>General</td><td>2014-12-18 19:39:58</td><td><span class="label label-sm label-warning">
+										Assigned/Pending </span></td><td></td></tr></table></td></tr>
