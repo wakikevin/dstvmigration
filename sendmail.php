@@ -7,4 +7,4 @@ $message = file_get_contents($htmllink);
 
 $message = str_replace(chr(194),"", $message);
 //send email to admin
-sendEmail('Kevin.Kyalo@squadigital.com','DSTV Kenya',$message);
+sendEmail('kevinwaki@gmail.com','DSTV Kenya',$message);

@@ -2,10 +2,10 @@
 //include functions.php
 include('includes/functions.php');
 
-
+error_reporting(E_ALL);
 $action = $_REQUEST['action'];
 
-echo '<a href="index.php">Back to homepage</a>';
+
 
 if($action == 'today'){
 	export('today');	
@@ -76,14 +76,18 @@ function export($date = ''){
 									
 								endforeach;
 							}
-						$tbl .= '</table>';
+				$tbl .= '</table>';
 	
 					$filename = "dstvleads" . date('dmY') . ".xls"; 
 					$excel = new ExcelWriter($filename);
 					$myArr = array($tbl);
 					$excel->writeLine($myArr);
-					header("location:".$filename);
 					
+					//header("location:".$filename);
+					
+					echo '<script type="text/javascript">window.location.href="'.$filename.'"; </script>';
+					
+					echo '<a href="index.php">Back to homepage</a>';
 					exit;
 }
 ?>

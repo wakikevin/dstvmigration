@@ -41,7 +41,7 @@ include('includes/header.php');
         <div class="footer">
             &copy; 2014 MultiChoice (PTY) LTD. All rights reserved.
         </div>
-<!-- Facebook Conversion Code for DSTV Migration -->
+<!-- Facebook Conversion Code for DSTV -->
 <script>(function() {
   var _fbq = window._fbq || (window._fbq = []);
   if (!_fbq.loaded) {
@@ -54,9 +54,10 @@ include('includes/header.php');
   }
 })();
 window._fbq = window._fbq || [];
-window._fbq.push(['track', '6021574699230', {'value':'0.00','currency':'USD'}]);
+window._fbq.push(['track', '6023480576171', {'value':'0.00','currency':'USD'}]);
 </script>
-<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6021574699230&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1" /></noscript>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6023480576171&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1" /></noscript>
+
 
 
 <!-- Google Code for Leads Conversion Page -->

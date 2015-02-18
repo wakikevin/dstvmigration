@@ -162,9 +162,11 @@ function login(){
 	if(count($user) > 0 ){
 			$_SESSION['userid'] = $user->id;
 			$_SESSION['name'] = $user->name;
-			header('location:index.php');
+			//header('location:index.php');
+			echo '<script type="application/javascript"> window.location.href= "index.php";</script>';
 	}else{
-		header('location:login.php');	
+		//header('location:login.php');	
+		echo '<script type="application/javascript"> window.location.href= "login.php";</script>';
 	}
 }
 
@@ -172,6 +174,7 @@ function logout(){
 	
 	session_destroy();
 	
-	header('location:login.php');
+	//header('location:login.php');
+	echo '<script type="application/javascript"> window.location.href= "login.php";</script>';
 }
 ?>

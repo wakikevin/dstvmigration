@@ -84,11 +84,13 @@ function saveData(){
 									sendEmail(EMAIL_FROM_ADDRESS,EMAIL_FROM_NAME,$message);
 									
 									//send email to agent
-									sendEmail($agent_email,$agent_name,$message);
+									//sendEmail($agent_email,$agent_name,$message);
+									sendEmail('aso@eadatahandlers.co.ke','EA DATAHANDLERS',$message);
 									
 									//send sms to agent
-									$sms = 'Hi '.$agent_name.', New Lead: '.$name.' - '.$mobile. '. Kindly act on this';
-									sendSMS($agent_phone,$sms);
+									$sms = 'Hi EA DataHandlers, New Lead: '.$name.' - '.$mobile. '. Kindly act on this';
+									//sendSMS($agent_phone,$sms);
+									//sendSMS('254714613279',$sms);
 									
 									//deactivate code
 									deactivateCode($token);
