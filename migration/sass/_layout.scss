@@ -1,0 +1,346 @@
+.vertical-align {
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+}
+.inline-block{
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	vertical-align:top;
+}
+
+.campaign-logo{
+	left:35px;
+	top:15px;
+	position: fixed;
+	z-index:3;
+}
+
+.banner{
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	img{
+		max-width:560px;
+		width:100%;
+	}
+}
+
+.counter-box{
+	padding-top: 40px;
+	h3{
+		font-family:$font-max-black;
+		color:$white;
+		font-size: 1.4em;
+		text-transform: uppercase;
+		font-weight: normal;
+		margin-bottom:40px;
+	}
+}
+
+.display-table{
+	height:100%;
+	display:table;
+	width:100%;
+}
+
+.body-bg{
+	background: url('../images/leftwing-bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: fixed;
+  left: 0;
+  width:100%;
+  height:100%;
+  top:0;
+}
+
+.left-wing{
+	 .wrap{
+	 	padding: 0 50px;
+	 }
+}
+.order-form{
+	@extend .clearfix;
+	h4{
+		color:$white;
+		font-family:$font-max-light;
+		font-weight: normal;
+		margin-bottom: 25px;
+		font-size: 1em;
+	}
+	input[type="text"]{
+		border:1px solid #a7c3d9;
+		padding: 12px 15px;
+		color: #525354;
+		width: 100%;
+		background:rgba(255,255,255,0.82);
+		font-family:$font-light;
+		margin-bottom: 20px;
+		&:focus{
+			background:#fff;
+		}
+	}
+	input[type="button"], input[type="submit"]{
+		font-family:$font-bold;
+		color:#2b2b2b;
+		border:none;
+		width:100%;
+		cursor:pointer;
+		font-size:1.5em;
+		text-transform: uppercase;
+		font-weight: normal;
+		background:#ffc600;
+		padding: 14px 20px;
+		border-bottom: #d1a200 solid 5px;
+		&:hover{
+			background: #d1a200;
+		}
+	}
+	::-webkit-input-placeholder {
+	   color: #525354;
+	}
+
+	:-moz-placeholder {
+	 color: #525354;
+	}
+
+	::-moz-placeholder { 
+	  color: #525354;
+	}
+
+	:-ms-input-placeholder {  
+	   color: #525354;
+	}
+	h3{
+		font-family:$font-max-light;
+		color:$white;
+		font-weight:normal;
+		font-size: 1.5em;
+	}
+	h2{
+		font-family:$font-max-black;
+		color:$white;
+		font-weight: normal;
+		font-size: 1.6em;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+	}
+}
+
+
+.selectdiv {
+	width: 100%;
+	border:1px solid #a7c3d9;
+	height: 50px;
+	background:rgba(255,255,255,0.82) url("../images/select-bg.png") no-repeat right center;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 20px;
+	float: left;
+}
+
+
+.selectboxdiv {
+	height: 100%;
+	min-height: 36px;
+	left: 0;
+	right: 0;
+	margin-top: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	-khtml-opacity: 0;
+	-moz-opacity: 0;
+	opacity: 0;
+	cursor: pointer;
+	top: 0;
+	bottom: 0;
+}
+
+.selectdiv div {
+	z-index: -1;
+	border: none;
+	height: 100%;
+	overflow: hidden;
+	padding:12px 15px;
+	cursor: pointer;
+	color: #525354;
+	text-align: left;
+}
+.dstv-logo{
+	position:absolute;
+	right:0;
+	top:0;
+	z-index:3;
+}
+.content-main{
+	// background:red;
+	position:relative;
+	z-index:2;
+	height:100%;
+	@extend .clearfix;
+ }
+ .copyright-bar{
+ 	background: #e2e2e5 url("../images/multichoice-logo.png") no-repeat left bottom;
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 140px;
+	left: 0;
+	bottom: 0;
+	font-size: 16px;
+ }
+ .left-wing{
+ 	width:1043/1920*100%;
+ 	float:left;
+ 	height:100%;
+ 	position: relative;
+ 	.display-table{
+ 		.vertical-align{
+ 			vertical-align: bottom;
+ 		}
+ 	}
+ }
+.right-wing{
+	float:left;
+	width:877/1920*100%;
+	height:100%;
+	background:rgba(7,62,124,0.7) url('../images/pattern.png') repeat;;
+	.wrap{
+		max-width:533px;
+		margin:auto;
+	}
+}
+.copy-text{
+	position: absolute;
+	bottom: 20px;
+	left: 220px;
+	font-size: 0.9em;
+}
+.disclaimer{
+	position: absolute;
+	bottom: 30px;
+	color: white;
+	font-size: 13px;
+	text-align: center;
+}
+.footer{
+	position: relative;
+	z-index: 9;
+	background:#e2e2e5;
+	width: 100%;
+	padding: 20px;
+	font-size: 0.8em;
+	text-align: center;
+	display:none;
+}
+.success {
+	background: url("../images/success.png") no-repeat top center;
+	padding-top: 54px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	margin: 40px 0;
+	color:$white;
+	font-family:$font-max-black;
+	font-size:1.4em;
+}
+
+
+
+.menu{
+	width: 100%;
+	text-align:center;
+	@extend .clearfix;
+	margin-top: 60px;
+}
+
+.menu ul{
+	margin: 0;
+	padding: 0;
+	float: left;
+	width:100%;
+}
+
+.menu ul li{
+	display: inline;
+}
+
+.menu ul li a{
+	@extend .inline-block;
+	text-decoration: none;
+	color: white; 
+	padding: 10.5px 30px;
+	border:#fff solid 2px;
+	font-size:1.3em;
+	margin:0 10px;
+}
+
+
+.menu ul li a:hover, .menu ul li .current{
+	color: #434f7c;
+	background-color:#fff;
+}
+
+.tab-content{
+	color:#fff;
+	padding-top:40px;
+	margin-bottom: 20px;
+	text-align:center;
+	h3{
+		font-family:$font-max-black;
+		font-weight: normal;
+		font-size: 1.4em;
+		max-width: 600px;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+	ul{
+		margin:0 0 0 30px;
+		list-style-type:none;
+		font-family:$font-bold;
+		font-weight:normal;
+		li{
+			margin-bottom:8px;
+		}
+	}
+}
+
+
+.faq-page{
+	.dstv-logo {
+		position: fixed;
+	}
+	.right-wing {
+		position: fixed;
+		right: 0;
+		top: 0;
+	}
+	.copyright-bar{
+		position: relative;
+	}
+	.left-wing{
+		background-color: #f3f3f5;
+	}
+	.menu ul li a {
+		color: #024D86;
+		padding: 12px 30px;
+		border: #024D86 solid 2px;
+		font-size: 1.2em;
+		&:hover{
+			background:#024D86;
+			color:$white;
+		}
+	}
+	.menu ul li a.current{
+		background:#024D86;
+		color:$white;
+	}
+}
